@@ -33,8 +33,8 @@ define(function () {
 								+ Indent2 + '<link rel="shortcut icon" href="">\n'
 								+ Indent2 + '<title>Starter Template for Bootstrap</title>\n\n'
 								+ Indent2 + '<!-- Bootstrap core CSS -->\n'
-								+ Indent2 + '<link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">\n'
-								+ Indent2 + '<link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css" rel="stylesheet">\n\n'
+								+ Indent2 + '<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">\n'
+								+ Indent2 + '<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css" rel="stylesheet">\n\n'
 								+ Indent2 + '<!-- Custom styles for this template -->\n'
 								+ Indent2 + '<style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}</style>\n\n'
 								
@@ -48,7 +48,7 @@ define(function () {
             					+ Indent2 + '<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">\n'
 									+ Indent3 + '<div class="container">\n'
 										+ Indent4 + '<div class="navbar-header">\n'
-									  		+ Indent5 + '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">\n'
+									  		+ Indent5 + '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">\n'
 												+ Indent6 + '<span class="sr-only">Toggle navigation</span>\n'
 												+ Indent6 + '<span class="icon-bar"></span>\n'
 												+ Indent6 + '<span class="icon-bar"></span>\n'
@@ -56,7 +56,7 @@ define(function () {
 									  		+ Indent5 + '</button>\n'
 									  		+ Indent5 + '<a class="navbar-brand" href="#">Project name</a>\n'
 										+ Indent4 + '</div>\n'
-										+ Indent4 + '<div class="collapse navbar-responsive-collapse">\n'
+										+ Indent4 + '<div class="collapse navbar-collapse">\n'
 									  		+ Indent5 + '<ul class="nav navbar-nav">\n'
 												+ Indent6 + '<li class="active"><a href="#">Home</a></li>\n'
 												+ Indent6 + '<li><a href="#about">About</a></li>\n'
@@ -71,8 +71,6 @@ define(function () {
 										+ Indent4 + '<p class="lead">Now you can start your own project with Bootstrap 3.1. This plugin is a fork from <a href="https://github.com/le717/brackets-html-skeleton">HTML Skeleton</a>.</p>\n'
 									+ Indent3 + '</div>\n'
 								+ Indent2 + '</div>\n'
-							+ Indent + '<!-- First try for the online version of jQuery-->\n'	
-							+ Indent + '<script src="http://code.jquery.com/jquery.js"></script>\n'
 							+ Indent + '</body>\n'+
 						 '</html>\n';
 
